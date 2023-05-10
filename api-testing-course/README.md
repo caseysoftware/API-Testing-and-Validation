@@ -9,7 +9,7 @@ This folder has all the working samples and code for the LinkedIn Learning cours
 2. Ensure you have [Composer](https://getcomposer.org/) installed. 
 3. Download or clone this repository.
 4. On your command line, move to this (the `api-testing-course`) directory.
-6. Install your environment via `./composer.phar --install` or equivalent depending on your Composer configuration. This will load Behat 3.12 and the Github SDK for you.
+6. Install your environment via `./composer.phar install` or equivalent depending on your Composer configuration. This will load Behat 3.12 and the Github SDK for you.
 7. Copy `behat.dist.yml` to `behat.yml`
 8. Create a Personal Access Token on Github via https://github.com/settings/tokens?type=beta giving it permission to
     *  User Permissions: Read and Write access to starring and watching
