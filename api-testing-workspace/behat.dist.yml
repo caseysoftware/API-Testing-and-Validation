@@ -1,0 +1,9 @@
+# behat.yml
+
+default:
+  suites:
+    default:
+      contexts:
+        - FeatureContext:
+            parameters:
+              github_token: "Visit https://github.com/settings/tokens to create a personal access token and put it here"
